@@ -35,7 +35,7 @@ public class Main {
 		System.out.println("\nMujeres mayores de 18 y menores de 30");
 		RoasterTest.printPersonsBetweenAndSex(roster, 18, 30, Sex.FEMALE);
 
-		// INTERFAZ EN ROASTERTEST
+		// INTERFAZ EN ROASTERTEST 
 		class CheckPersonEligibleForSelectiveService implements CheckPerson {
 			public boolean test(Person p) {
 				// System.out.println("test");
